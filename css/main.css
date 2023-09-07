@@ -1,0 +1,137 @@
+main {
+    margin-top: 120px;
+    padding-left: 80px;
+    padding-bottom: 300px;
+}
+
+
+.composition {
+    display: flex;
+    align-items: center;
+}
+
+
+.composition__info {
+    width: 830px;
+    height: 540px;
+    background: url(/img/header/1.svg);
+    padding-top: 380px;
+    padding-left: 50px;
+}
+
+
+.composition__info p {
+    color: #fff;
+    font-family: "Gotham Pro Black";
+    font-size: 40px;
+}
+
+
+.composition__info span {
+    display: inline-block;
+    color: #000;
+    font-family: "Gotham Pro Black";
+    font-size: 20px;
+    background: #fff;
+    padding: 10px 20px 7px 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+
+.compositions {
+    display: flex;
+    align-items: center;
+    background: rgba(213, 98, 29, .1);
+    margin-left: 30px;
+    padding: 20px 20px 30px 20px;
+}
+
+
+.compositions__immediate p, .compositions__soon p {
+    color: #fff;
+    font-family: "Gotham Pro Black";
+    font-size: 16px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+
+.compositions__immediate {
+    width: 160px;
+}
+
+
+.compositions__soon {
+    width: 160px;
+    margin-left: 30px;
+}
+
+/*Kitchen*/
+
+.kitchen {
+    display: flex;
+    align-items: center;
+}
+
+
+.kitchen__arrow1, .kitchen__arrow2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-family: "Gotham Pro Bold", sans-serif;
+    width: 50px;
+    height: 50px;
+    background: rgba(213, 98, 29, 1);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.kitchen__food {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 60px;
+}
+
+
+.kitchen__food-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+
+.kitchen__food-info:last-child {
+    margin-bottom: 0;
+}
+
+
+.kitchen__food-primary {
+    display: flex;
+    flex-direction: flex;
+    align-items: center;
+}
+
+
+.kitchen__food--name--price {
+    display: flex;
+}
+
+
+.kitchen__food-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.kitchen__food--decription {
+    color: #fff;
+    font-family: "Gotham Pro Medium";
+    font-size: 14px;
+    width: 351px;
+    margin-left: 20px;
+}

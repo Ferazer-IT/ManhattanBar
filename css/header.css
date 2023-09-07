@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+
+body {
+    background: rgba(33, 14, 9, 1);
+}
+
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+header {
+    padding-top: 20px;
+}
+
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+
+.navbar li {
+    margin-left: 25px;
+    font-family: "Gotham Pro Bold";
+    padding-bottom: 2px;
+    font-size: 14px;
+    cursor: pointer;
+    background: linear-gradient(rgba(213, 98, 29, 1) 0 0) bottom /var(--t, 0) 2px no-repeat;
+    transition: .5s;
+}
+
+
+.navbar li:hover {
+    --t: 100%;
+}

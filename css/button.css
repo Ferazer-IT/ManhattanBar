@@ -1,0 +1,9 @@
+.nav__button {
+    padding: 15px 30px 15px 30px;
+    border: 2px solid rgba(213, 98, 29, 1);
+    border-radius: 5px;
+    color: #fff;
+    background: transparent;
+    font-family: "Gotham Pro Bold";
+    cursor: pointer;
+}

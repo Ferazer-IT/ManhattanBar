@@ -7,3 +7,43 @@
     font-family: "Gotham Pro Bold";
     cursor: pointer;
 }
+
+
+/*Kitchen*/
+.kitchen__button {
+    background: rgba(213, 98, 29, 1);
+    border: 2px solid rgba(213, 98, 29, 1);
+    color: #fff;
+    padding: 15px 30px 15px 30px;
+    font-family: "Gotham Pro Bold";
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+
+.kitchen__button:hover {
+    background: rgb(92, 35, 0);
+    color: #ccc;
+    border: 2px solid rgba(213, 98, 29, 1);
+}
+
+/*events*/
+.events__button {
+    border: 2px solid rgba(213, 98, 29, 1);
+    border-radius: 5px;
+    background: transparent;
+    padding: 15px 30px 15px 30px;
+    width: 150px;
+    color: #fff;
+    font-family: "Gotham Pro Bold";
+    margin-left: 100px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+
+.events__button:hover {
+    border: 2px solid rgb(73, 28, 0);
+    color: #ccc;
+}

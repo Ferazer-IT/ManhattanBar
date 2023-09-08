@@ -1,16 +1,16 @@
 @font-face {
     font-family: "Gotham Pro Black";
-    src: url(/fonts/GothamPro-Black.ttf);
+    src: url(../fonts/GothamPro-Black.ttf);
 }
 
 
 @font-face {
     font-family: "Gotham Pro Bold";
-    src: url(/fonts/GothamProNarrow-Bold.ttf);
+    src: url(../fonts/GothamProNarrow-Bold.ttf);
 }
 
 
 @font-face {
     font-family: "Gotham Pro Medium";
-    src: url(/fonts/GothamPro-Medium.ttf);
+    src: url(../fonts/GothamPro-Medium.ttf);
 }

@@ -433,3 +433,79 @@ main {
 .social-medias i:first-child {
     margin-left: 0;
 }
+
+/*Contacts*/
+#contacts {
+    margin-top: 120px;
+}
+
+
+.contacts__info {
+    display: flex;
+    align-items: center;
+    padding-left: 25px;
+}
+
+
+.contacts__info--about {
+    background: rgba(213, 98, 29, 0.1);
+    padding: 50px 30px 0 30px;
+    height: 660px;
+    width: 416px;
+    border-radius: 5px;
+    border: 2px solid rgba(213, 98, 29, 1);
+}
+
+
+.contacts__info--primary {
+    color: #fff;
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-family: "Gotham Pro Bold";
+}
+
+
+.contacts__info--secondary {
+    color: #ffffffde;
+    margin-bottom: 40px;
+    font-size: 14px;
+    font-family: "Gotham Pro Medium";
+}
+
+
+.contacts__info--image {
+    margin-left: 20px;
+}
+
+
+hr {
+    height: 2px;
+    border: none;
+    background: #cccccc4b;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+
+.contacts__first {
+    color: #000;
+    background: #fff;
+    font-family: "Gotham Pro Bold";
+    background: #fff;
+    padding: 10px 20px 7px 20px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    font-size: 14px;
+    width: 230px;
+    margin-left: 43%;
+    text-align: center;
+}
+
+
+.contacts__second {
+    color: #fff;
+    font-family: "Gotham Pro Black";
+    margin-bottom: 60px;
+    font-size: 40px;
+    margin-left: 42.5%;
+}

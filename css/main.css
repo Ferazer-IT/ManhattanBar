@@ -1,5 +1,5 @@
 main {
-    margin-top: 120px;
+    margin-top: 60px;
     padding-bottom: 300px;
 }
 
@@ -7,16 +7,13 @@ main {
 #composition {
     display: flex;
     align-items: center;
-    padding-left: 80px;
+    padding-left: 40px;
 }
 
 
 .composition__info {
     width: 830px;
     height: 540px;
-    background: url(../img/header/1.svg);
-    padding-top: 380px;
-    padding-left: 50px;
 }
 
 
@@ -43,8 +40,16 @@ main {
     display: flex;
     align-items: center;
     background: rgba(213, 98, 29, .1);
-    margin-left: 30px;
+    margin-left: 50px;
     padding: 20px 20px 30px 20px;
+}
+
+
+.composition__info--about {
+    position: absolute;
+    top: 75%;
+    left: 20%;
+    transform: translate(-50%, 0%);
 }
 
 

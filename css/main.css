@@ -14,7 +14,7 @@ main {
 .composition__info {
     width: 830px;
     height: 540px;
-    background: url(/img/header/1.svg);
+    background: url(../img/header/1.svg);
     padding-top: 380px;
     padding-left: 50px;
 }
